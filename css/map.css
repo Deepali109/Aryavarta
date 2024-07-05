@@ -1,0 +1,42 @@
+/* #BBB5DC */
+path{
+    stroke-width:1px;
+}
+#map-box{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    /* background:linear-gradient(to bottom, rgb(246, 243, 243), rgb(197, 244, 242), rgb(50, 228, 234)); */
+    background: linear-gradient(
+        to right,
+        rgb(197, 244, 242) 0%,
+        rgb(197, 244, 242) 20%,
+        rgba(197, 244, 242, 0.375) 40%,
+        rgb(197, 244, 242,0.375)  60%,
+        rgb(197, 244, 242) 80%,
+        rgb(197, 244, 242) 100%
+      );
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+svg{
+    text-anchor:middle;
+}
+#a38:hover,#a13:hover,#a30:hover,#a25:hover,#a32:hover,#a18:hover,#a20:hover,#a26:hover,#a27:hover{
+       fill:#c0ec22;
+}
+#a29:hover,#a34:hover,#a16:hover,#a24:hover,#a23:hover,#a37:hover,#a8:hover,#a19:hover,#a1:hover{
+    fill:#3da7e9;
+}
+#a14:hover,#a3:hover,#a5:hover,#a2:hover,#a11:hover,#a12:hover{
+    fill:#f25d94;
+}
+#a28:hover,#a4:hover,#a7:hover,#a17:hover,#a10:hover,#a9:hover{
+    fill:#ffc004;
+}
+#a36:hover,#a33:hover,#a35:hover,#a21:hover,#a31:hover{
+    fill:#f98d09;
+}
